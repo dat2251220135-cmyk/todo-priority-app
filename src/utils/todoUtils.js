@@ -78,6 +78,6 @@ export function getTodoStats(list) {
     return {
         total,
         completed,
-        pending: total - completed,
+        pending: total - completed - 1
     };
 }

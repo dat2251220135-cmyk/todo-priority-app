@@ -1,7 +1,7 @@
 export default function TodoList({ todos, onToggle }) {
     return (
         <div className="card">
-            <h2>Danh sách công việc</h2>
+            <h2>📋 Danh sách công việc</h2>
 
             {todos.length === 0 ? (
                 <p>Chưa có công việc</p>
